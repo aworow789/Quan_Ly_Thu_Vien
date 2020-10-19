@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6e8f7075d0694157b186e372edf7bbac" Name="Diagram1">
+        <EntityTypeShape EntityType="thuvienlogindemoModel.BaoCaoCongNo" Width="1.5" PointX="3.75" PointY="21.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="thuvienlogindemoModel.BaoCaoTon" Width="1.5" PointX="3" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="thuvienlogindemoModel.CTBaoCaoCongNo" Width="1.5" PointX="6" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="thuvienlogindemoModel.CTBaoCaoTon" Width="1.5" PointX="5.25" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="thuvienlogindemoModel.CTHD" Width="1.5" PointX="5.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="thuvienlogindemoModel.CTPhieuNhap" Width="1.5" PointX="5.25" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="thuvienlogindemoModel.HoaDon" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="thuvienlogindemoModel.KhachHang" Width="1.5" PointX="0.75" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="thuvienlogindemoModel.NguoiDung" Width="1.5" PointX="0.75" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="thuvienlogindemoModel.NhaXuatBan" Width="1.5" PointX="0.75" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="thuvienlogindemoModel.PhieuNhap" Width="1.5" PointX="3" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="thuvienlogindemoModel.PhieuThuTien" Width="1.5" PointX="8" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="thuvienlogindemoModel.QuyDinh" Width="1.5" PointX="7.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="thuvienlogindemoModel.Sach" Width="1.5" PointX="3" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="thuvienlogindemoModel.TacGia" Width="1.5" PointX="5.25" PointY="15.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="thuvienlogindemoModel.TheLoai" Width="1.5" PointX="5.25" PointY="18.25" IsExpanded="true" />
+        <AssociationConnector Association="thuvienlogindemoModel.FK_CTBaoCaoCongNo_BaoCaoCongNo" ManuallyRouted="false" />
+        <AssociationConnector Association="thuvienlogindemoModel.FK_CTBaoCaoTon_BaoCaoTon" ManuallyRouted="false" />
+        <AssociationConnector Association="thuvienlogindemoModel.FK_CTBaoCaoCongNo_KhachHang" ManuallyRouted="false" />
+        <AssociationConnector Association="thuvienlogindemoModel.FK_CTBaoCaoTon_Sach" ManuallyRouted="false" />
+        <AssociationConnector Association="thuvienlogindemoModel.FK_CTHD_HoaDon" ManuallyRouted="false" />
+        <AssociationConnector Association="thuvienlogindemoModel.FK_CTHD_Sach" ManuallyRouted="false" />
+        <AssociationConnector Association="thuvienlogindemoModel.FK_CTPhieuNhap_PhieuNhap" ManuallyRouted="false" />
+        <AssociationConnector Association="thuvienlogindemoModel.FK_CTPhieuNhap_Sach" ManuallyRouted="false" />
+        <AssociationConnector Association="thuvienlogindemoModel.FK_HoaDon_KhachHang" ManuallyRouted="false" />
+        <AssociationConnector Association="thuvienlogindemoModel.FK_HoaDon_NguoiDung" ManuallyRouted="false" />
+        <AssociationConnector Association="thuvienlogindemoModel.FK_PhieuThuTien_KhachHang" ManuallyRouted="false" />
+        <AssociationConnector Association="thuvienlogindemoModel.FK_PhieuNhap_NguoiDung" ManuallyRouted="false" />
+        <AssociationConnector Association="thuvienlogindemoModel.FK_PhieuThuTien_NguoiDung" ManuallyRouted="false" />
+        <AssociationConnector Association="thuvienlogindemoModel.FK_Sach_NhaXuatBan" ManuallyRouted="false" />
+        <AssociationConnector Association="thuvienlogindemoModel.CTTacGia" ManuallyRouted="false" />
+        <AssociationConnector Association="thuvienlogindemoModel.CTTheLoai" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
